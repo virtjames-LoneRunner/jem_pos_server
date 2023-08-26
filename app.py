@@ -7,7 +7,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
  
-app.config['MYSQL_HOST'] = '192.168.1.3'
+app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'aezakmi143'
 app.config['MYSQL_DB'] = 'minimart'
